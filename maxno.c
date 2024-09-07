@@ -1,7 +1,8 @@
 #include<stdio.h>
+#include<limits.h>
 int main(){
     int arr[10];
-    int max=0;
+    int max=INT_MIN;
     printf("Enter The Numbers");
     printf("\n");
 
